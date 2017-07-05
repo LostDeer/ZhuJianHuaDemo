@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="meng.zhujianhuademo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".App"
+        android:theme="@style/AppTheme">
+        <!--<activity android:name=".SchemeFilterActivity">-->
+
+            <!--&lt;!&ndash; Schame &ndash;&gt;-->
+            <!--<intent-filter>-->
+                <!--<data-->
+                    <!--android:scheme="module"/>-->
+
+                <!--<action android:name="android.intent.action.VIEW"/>-->
+
+                <!--<category android:name="android.intent.category.DEFAULT"/>-->
+                <!--<category android:name="android.intent.category.BROWSABLE"/>-->
+            <!--</intent-filter>-->
+
+            <!--&lt;!&ndash; App Links &ndash;&gt;-->
+            <!--&lt;!&ndash;<intent-filter android:autoVerify="true">&ndash;&gt;-->
+                <!--&lt;!&ndash;<action android:name="android.intent.action.VIEW"/>&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<category android:name="android.intent.category.DEFAULT"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<category android:name="android.intent.category.BROWSABLE"/>&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<data&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:host="m.aliyun.com"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:scheme="http"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<data&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:host="m.aliyun.com"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:scheme="https"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;</intent-filter>&ndash;&gt;-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name="com.github.mzule.activityrouter.router.RouterActivity"-->
+            <!--android:theme="@android:style/Theme.NoDisplay">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+                <!--<data android:scheme="module" />&lt;!&ndash;改成自己的scheme&ndash;&gt;-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity android:name=".MainActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+    </application>
+
+</manifest>
